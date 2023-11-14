@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        label{
+            font-weight: bold;
+        }
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: aqua;
+        }
+        fieldset{
+            width: 500px;
+            margin: 100px auto;
+        }
+        .btn {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+       }
+        .btn .btn1{
+        background-color: red;
+      }
+      .btn .btn2{
+        background-color: blue;
+      }
+        
+    </style>
+</head>
+<body>
+    <fieldset>
+        <legend>
+            <h2>Booking Periksa Kesehatan gigi</h2>
+        </legend>
+     <form method="post" action="">
+        <div class="container">
+            <label for="Nama Pasien">Nama Pasien</label>
+            <input type="text" id="Nama Pasien">
+        </div>
+        <br>    
+        <div class="container1">
+            <label for="Pilih Dokter">Pilh Dokter</label>
+            <select name="Pilih Dokter" id="Pilih Dokter">
+                <option value="Dr.Faiz">Dr.Faiz</option>
+                <option value="Dr.Zulpan">Dr.Zulpan</option>
+                <option value="Dr.Dayat">Dr.Dayat</option>
+                <option value="Dr.Aulia">Dr.Aulia</option>
+                <option value="Dr.Ilham">Dr.Ilham</option>
+            </select>
+        </div>
+        <br>
+        <div class="container2">
+            <label for="Pilih Layanan">Pilh Layanan</label>
+            <select name="Pilih Layanan" id="Pilih Layanan">
+                <option value="Perawatan Gigi Anak">Perawatan Gigi Anak</option>
+                <option value="Perawatan Gigi Dewasa">Perawatan Gigi Dewasa</option>
+                <option value="Perawatan Saraf ">Perawatan Saraf</option>
+            </select>
+        </div>
+        <br>
+        <div class="container3">
+            <label for="Keluhan">Keluhan :</label>
+            <input type="" id="Keluhan">
+        </div>
+        <br>
+        <div class="container4">
+            <label for="Pembayaran">Pembayaran : </label>
+            <input type="radio" id="Pembayaran">
+            <label for="radio">cash</label>
+            <input type="radio" id="Pembayaran">
+            <label for="radio">Transfer</label>
+            <input type="radio" id="Pembayaran">
+            <label for="radio">eWallet</label>   
+            <br>
+            <br>
+            <label for="Tanggal Peiksa">Tanggal Periksa</label>
+            <input type="date" id="Tanggal periksa">
+
+            
+        </div>
+        <br>
+        <div class="container5">
+            <label for="Umur">Umur</label>
+            <input type="text" id="Umur">
+            <br>
+            <br>
+            <label for="Telp/Hp">Telp/Hp</label>
+            <input type="tel" id="Telp/Hp">
+            <br>
+            <br>
+            <label for="Email">Email</label>
+            <input type="email" id="Email">  
+        </div>
+        <br>
+        <div class="form group btn">
+            <input type="submit" Kirim class="btn1" />
+            <input type="reset" Batal class="btn2" />
+          </div>
+
+
+     </form>
+    </fieldset>
+    
+</body>
+</html>
